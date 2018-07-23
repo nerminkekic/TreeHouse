@@ -1,0 +1,14 @@
+/* UI element states pseudo-classes ------------ */
+
+input:focus,
+textarea:focus {
+    border-color: seagreen;
+}
+
+input:disabled {
+    background: lightgray;
+}
+
+input[type="checkbox"]:checked+label {
+    font-weight: bold;
+} 

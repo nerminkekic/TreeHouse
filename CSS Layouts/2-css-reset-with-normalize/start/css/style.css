@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    border: 2px solid purple;
+    /* min-height: 40px; */
+    text-align: center;
+}
+
+.container {
+    border: 2px solid orange;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.box {
+    padding: 10px;
+    border: 2px solid green;
+    width: 300px;
+    margin: 10px 0px 10px 10px;
+    min-height: 30px;
+}
