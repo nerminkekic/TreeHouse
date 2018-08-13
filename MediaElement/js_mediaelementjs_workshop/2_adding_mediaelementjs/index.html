@@ -14,7 +14,11 @@
   <script src="js/mediaelement-and-player.min.js"></script>
   <!-- Add any other renderers you need; see Use Renderers for more information -->
   <link href="css/mediaelementplayer.css" rel="stylesheet">
+  <script src="js/skip-back.min.js"></script>
+  <script src="js/skip-back-i18n.js"></script>
+  <link rel="stylesheet" href="css/skip-back.min.css">
   <link href="css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,7 +26,6 @@
   <h1>HTML Video and Audio</h1>
 
   <div class="wrapper">
-
     <h2>Video Example</h2>
     <div class="videowrapper">
       <video width="852" height="480">
@@ -43,8 +46,9 @@
   </div>
   <script>
     $('video, audio').mediaelementplayer({
-      features: ['playpause', 'tracks', 'progress'],
-      startLanguage: 'en'
+      features: ['playpause', 'tracks', 'progress', 'skipback'],
+      startLanguage: 'en',
+      skipBackInterval: 4
     });
   </script>
 </body>
