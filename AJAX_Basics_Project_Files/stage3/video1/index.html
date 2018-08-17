@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet'
+    type='text/css'>
   <link rel="stylesheet" href="css/main.css">
   <title>AJAX with JavaScript</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-
+    function sendAJAX() {
+      $('#ajax').load('sidebar.html');
+      $('#load').hide();
+    }
   </script>
 </head>
+
 <body>
   <div class="grid-container centered">
     <div class="grid-100">
@@ -26,4 +33,5 @@
     </div>
   </div>
 </body>
+
 </html>
