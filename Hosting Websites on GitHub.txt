@@ -1,0 +1,4 @@
+Other hosting and deployment solutions
+Netlify – Build, deploy, and manage modern web projects
+Heroku: Cloud Application Platform
+Now – Realtime Global Deployments - Zeit
